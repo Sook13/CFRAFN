@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: torchvggish
+Version: 0.2
+Summary: A Pytorch port of Tensorflow's VGGish embedding model.
+Home-page: https://github.com/harritaylor/torchvggish
+Author: Harri Taylor
+Author-email: taylorh23@cardiff.ac.uk
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: resampy
