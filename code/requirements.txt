@@ -1,8 +1,8 @@
 librosa==0.10.2.post1
-# matplotlib==3.10.3
-# numpy==2.2.5
-# opensmile==2.5.1
-# pandas==2.2.3
-# scipy==1.15.3
-# seaborn==0.13.2
-# torch==2.5.1
+matplotlib==3.10.3
+numpy==2.2.5
+opensmile==2.5.1
+pandas==2.2.3
+scipy==1.15.3
+seaborn==0.13.2
+torch==2.5.1
