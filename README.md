@@ -51,4 +51,5 @@ The training and evaluation process of the model is time-consuming and has high 
 
 ## Common questions
 1. During the process of loading and using the VGGish model, the following problems occurred: the model could not be loaded correctly, and the system prompted a lack of torchvggish - related dependencies.
-Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.![alt text](image.png)
+Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
+![alt text](image-1.png)![alt text](image.png)
