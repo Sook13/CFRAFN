@@ -55,4 +55,5 @@ Q1: During the process of loading and using the VGGish model, the following prob
 A1: Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
 
 ![alt text](image-1.png)
+
 ![alt text](image.png)
