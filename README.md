@@ -30,7 +30,7 @@ chmod +x install_deps.sh
 ## Demo
 Subject to the requirements of patient privacy protection and confidentiality agreements, the data of this study are not publicly stored on the GitHub platform. If you need to use the CFRAFN model to predict patient audio files, it is recommended to process the files according to the audio preprocessing process described in this research paper. Specifically, it includes steps such as Mono Conversion, Resampling to 16kHz, Amplitude Normalization, and Silence Removal.
 
-### CFRAFN Model Training and Evaluation
+### CFRAFN Model Train and Evaluate
 
 usage: main.py [-h] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--model_save_name MODEL_SAVE_NAME]
 example:
@@ -46,3 +46,8 @@ options:
                         Path to save the results and model
 -  `--model_save_name MODEL_SAVE_NAME`
                         Filename for saving the best model
+
+The training and evaluation process of the model is time-consuming and has high requirements for hardware computing resources. Taking the experimental environment as an example, based on the NVIDIA RTX 4090 GPU, it takes a total of 40 minutes to complete one round of training and evaluation process on a dataset containing approximately 300 audio samples.
+
+## Common questions
+1. 在加载和使用VGGish模型过程中，出现以下问题：模型无法正确加载，且系统提示缺少torchvggish相关依赖。
