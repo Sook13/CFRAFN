@@ -30,7 +30,19 @@ chmod +x install_deps.sh
 ## Demo
 Subject to the requirements of patient privacy protection and confidentiality agreements, the data of this study are not publicly stored on the GitHub platform. If you need to use the CFRAFN model to predict patient audio files, it is recommended to process the files according to the audio preprocessing process described in this research paper. Specifically, it includes steps such as Mono Conversion, Resampling to 16kHz, Amplitude Normalization, and Silence Removal.
 
-### Predict
+### CFRAFN Model Training and Evaluation
+
+usage: main.py [-h] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--model_save_name MODEL_SAVE_NAME]
+example:
 ```shell
 cd code
-python main.py
+python main.py --data_path /path/to/your/data --save_path /path/to/save/results --model_save_name /path/to/model/model_name
+```
+options:
+-  `-h, --help`            show this help message and exit
+-  `--data_path DATA_PATH`
+                        Path to the input data directory
+-  `--save_path SAVE_PATH`
+                        Path to save the results and model
+-  `--model_save_name MODEL_SAVE_NAME`
+                        Filename for saving the best model

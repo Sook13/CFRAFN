@@ -16,6 +16,7 @@ from dataclasses import dataclass
 from typing import Tuple, Dict
 from tools.utils import get_eGe_matrix,get_vggish_features
 from scipy.interpolate import interp1d
+import argparse 
 
 setup_seed(42)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -352,6 +353,9 @@ def save_results(metrics: Dict, predictions: Dict, roc_data: Dict, save_path: st
 def evaluate_test_model(model_param=None):
     """Main function to evaluate the model"""
     setup_seed(42)
+    
+    args = parse_args()
+
     params = {
         'expansion': 2,
         'lr': 5e-4,
@@ -364,9 +368,9 @@ def evaluate_test_model(model_param=None):
         'resblock_kernel_size': 3,
         'epochs': 2000,
         'patience': 100,
-        'data_path': "../data/demo_data/",
-        'save_path': "../result/02demo_result/",
-        'model_save_name': "best_CFRAFN.pth"
+        'data_path': args.data_path,
+        'save_path': args.save_path,
+        'model_save_name': args.model_save_name
     }
     os.makedirs(params['save_path'], exist_ok=True)
     (X_train_eGe_list,X_test_eGe_list,X_val_eGe_list,X_train_VGGish_list,
@@ -398,6 +402,18 @@ def evaluate_test_model(model_param=None):
         update_roc_data(roc_data[dataset_type], results)
 
     save_results(metrics, predictions, roc_data, params['save_path'])
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='CFRAFN Model Training and Evaluation')
+    
+    parser.add_argument('--data_path', type=str, default='../data/demo_data',
+                       help='Path to the input data directory')
+    parser.add_argument('--save_path', type=str, default='../result/02demo_result/',
+                       help='Path to save the results and model')
+    parser.add_argument('--model_save_name', type=str, default='best_CFRAFN.pth',
+                       help='Filename for saving the best model')
+    
+    return parser.parse_args()
 
 def main():
     setup_seed(42)
