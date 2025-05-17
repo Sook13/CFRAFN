@@ -36,7 +36,7 @@ get_data_csv(root_folder)
 with open("../result/01preprocess/eGe_feature_cumul1.txt",'r')as f:
     eGe_feature = [line.strip() for line in f]
 
-feature_weights = pd.read_csv('../result/01preprocess/03sorted_feature_importance.csv',index_col=0)
+feature_weights = pd.read_csv('../result/01preprocess/sorted_feature_importance.csv',index_col=0)
 feature_weights = feature_weights.squeeze()[eGe_feature]
 
 def read_data(data_path):

@@ -1,13 +1,8 @@
-joblib==1.4.2
 librosa==0.10.2.post1
-matplotlib==3.10.3
-numpy==2.2.5
-opensmile==2.5.1
-optuna==4.1.0
-pandas==2.2.3
-scikit_learn==1.6.1
-scipy==1.15.3
-seaborn==0.13.2
-torch==2.5.1+cu121
-torchvggish.egg==info
-tqdm==4.67.1
+# matplotlib==3.10.3
+# numpy==2.2.5
+# opensmile==2.5.1
+# pandas==2.2.3
+# scipy==1.15.3
+# seaborn==0.13.2
+# torch==2.5.1
