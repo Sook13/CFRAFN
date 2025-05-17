@@ -1,4 +1,5 @@
 # CFRAFN: A Deep Learning Model for Depression Recognition Based on Attention Mechanism and Integrated Mixed Features
+## Introduction
 Cross-Feature Residual Attention Fusion Network (CFRAFN), which leverages eGeMAPS features along with high-dimensional embeddings extracted from the pre-trained VGGish model to effectively capture depression-associated phonetic patterns. Specifically, the CFRAFN utilizes differentiated residual blocks to maintain training stability in deep hierarchical structure. Furthermore, the self-attention fusion strategy dynamically weights the significance of each feature modality, ensuring effective feature integration and consequently improving depression prediction accuracy.
 ![main_image](images/Framework.png)
 ## Set up
@@ -57,4 +58,4 @@ A: Users need to retrieve torchvggish through the Python Package Index (PyPI) an
 ![alt text](images/image_1.png)
 
 ## Contact
-If you have any questions or encounter problems during the research process, you are welcome to contact us at any time via the email: ```2283118171@qq.com```.
+If you have any questions or encounter problems during the project, you are welcome to contact us at any time via the email: ```2283118171@qq.com```.
