@@ -33,7 +33,10 @@ Subject to the requirements of patient privacy protection and confidentiality ag
 
 ### Instructions for use
 
-usage: main.py [-h] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--model_save_name MODEL_SAVE_NAME]
+usage: 
+```shell
+main.py [-h] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--model_save_name MODEL_SAVE_NAME]
+```
 example:
 ```shell
 cd code
