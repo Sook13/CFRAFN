@@ -40,7 +40,7 @@ main.py [-h] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--model_save_name 
 example:
 ```shell
 cd code
-python main.py --data_path /path/to/your/data --save_path /path/to/save/results --model_save_name /path/to/model/model_name
+python main.py --data_path ../data/demo_data --save_path ../result/02demo_result/ --model_save_name best_CFRAFN.pth
 ```
 options:
 -  `-h, --help`            show this help message and exit
