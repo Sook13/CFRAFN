@@ -54,7 +54,7 @@ Q: During the process of loading and using the VGGish model, the following probl
 
 A: Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
 
-![alt text](images/image-1.png)
+![alt text](images/image_1.png)
 
 ## Contact
 If you have any questions or encounter problems during the research process, you are welcome to contact us at any time via the email: ```2283118171@qq.com```.
