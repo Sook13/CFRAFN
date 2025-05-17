@@ -56,7 +56,5 @@ A: Users need to retrieve torchvggish through the Python Package Index (PyPI) an
 
 ![alt text](images/image-1.png)
 
-![alt text](images/image_2.png)
-
 ## Contact
 If you have any questions or encounter problems during the research process, you are welcome to contact us at any time via the email: ```2283118171@qq.com```.
