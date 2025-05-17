@@ -50,12 +50,13 @@ options:
 The training and evaluation process of the model is time-consuming and has high requirements for hardware computing resources. Taking the experimental environment as an example, based on the NVIDIA RTX 4090 GPU, it takes a total of 40 minutes to complete one round of training and evaluation process on a dataset containing approximately 300 audio samples.
 
 ## FAQ
-Q1: During the process of loading and using the VGGish model, the following problems occurred: the model could not be loaded correctly, and the system prompted a lack of torchvggish - related dependencies.
+Q: During the process of loading and using the VGGish model, the following problems occurred: the model could not be loaded correctly, and the system prompted a lack of torchvggish - related dependencies.
 
-A1: Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
+A: Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
 
 ![alt text](images/image-1.png)
 
 ![alt text](images/image_2.png.png)
 
-Q2: 
+## Contact
+If you have any questions or encounter problems during the research process, you are welcome to contact us at any time via the email ```2283118171@qq.com```.
