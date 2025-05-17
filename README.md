@@ -16,7 +16,7 @@ scipy==1.15.3
 seaborn==0.13.2
 torch==2.5.1
 ```
-To verify the proper installation and functionality of these packages, we conducted installation and usage tests on Windows 11.
+We conducted installation and usage tests on these packages on Windows 11 to verify if they were installed correctly and can run properly.
 
 ### Installation
 
