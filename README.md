@@ -33,4 +33,4 @@ Subject to the requirements of patient privacy protection and confidentiality ag
 ### Predict
 ```shell
 cd code
-
+python main.py

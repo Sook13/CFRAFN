@@ -365,7 +365,7 @@ def evaluate_test_model(model_param=None):
         'epochs': 2000,
         'patience': 100,
         'data_path': "../data/demo_data/",
-        'save_path': "../result/demo_result/",
+        'save_path': "../result/02demo_result/",
         'model_save_name': "best_CFRAFN.pth"
     }
     os.makedirs(params['save_path'], exist_ok=True)

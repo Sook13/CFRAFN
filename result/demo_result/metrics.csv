@@ -1,3 +1,0 @@
-Dataset,acc_mean,ppv_mean,sensitivity_mean,f1_mean,roc_auc_mean,mcc_mean,aupr_mean,gmean_mean,kappa_mean,npv_mean,specificity_mean,acc_std,ppv_std,sensitivity_std,f1_std,roc_auc_std,mcc_std,aupr_std,gmean_std,kappa_std,npv_std,specificity_std
-Validation,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-Test,0.6666666666666666,0.6,1.0,0.75,1.0,0.4472135954999579,1.0,0.5773502691896257,0.33333333333333337,1.0,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
