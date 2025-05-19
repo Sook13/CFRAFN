@@ -51,12 +51,5 @@ options:
 -  `--model_save_name MODEL_SAVE_NAME`
                         Filename for saving the best model
 
-## FAQ
-Q: During the process of loading and using the VGGish model, the following problems occurred: the model could not be loaded correctly, and the system prompted a lack of torchvggish - related dependencies.
-
-A: Users need to retrieve torchvggish through the Python Package Index (PyPI) and download it to the local environment for compilation and installation.
-
-![alt text](images/image_1.png)
-
 ## Contact
 If you have any questions or encounter problems during the project, you are welcome to contact us at any time via the email: ```sidufeng@seu.edu.cn``` & ```yisun_226@seu.edu.cn```.
