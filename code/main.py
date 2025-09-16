@@ -93,12 +93,12 @@ def prepare_datasets(
     X_train_eGe: pd.DataFrame,
     X_val_eGe: pd.DataFrame,
     X_test_eGe: pd.DataFrame,
-    X_train_VGGish: np.ndarray,
-    X_val_VGGish: np.ndarray,
-    X_test_VGGish: np.ndarray,
-    y_train: np.ndarray,
-    y_val: np.ndarray,
-    y_test: np.ndarray,
+    X_train_VGGish: pd.DataFrame,
+    X_val_VGGish: pd.DataFrame,
+    X_test_VGGish: pd.DataFrame,
+    y_train: pd.Series,
+    y_val: pd.Series,
+    y_test: pd.Series,
 ) -> dict[str, Tuple]:
     """Prepare datasets for training, validation and testing"""
     def _prepare(X_eGe, X_VGGish, y):
