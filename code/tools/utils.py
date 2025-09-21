@@ -69,7 +69,6 @@ def get_eGe_matrix(data_index, folder, X, y, train=False, n_jobs=-1):
     def process_file(index):
         filename = X[index]
         label = y[index]
-        found = False
         for root, dirs, files in os.walk(folder):
             if filename in files:
                 full_path = os.path.join(root, filename)
@@ -82,8 +81,7 @@ def get_eGe_matrix(data_index, folder, X, y, train=False, n_jobs=-1):
                     features_eGeMAPS['label'] = label
                     features_eGeMAPS['index'] = str(index)
                     return [features_eGeMAPS]
-        if not found:
-            print(f"file {filename} lost")
+        print(f"file {filename} lost")
         return []
     results = Parallel(n_jobs=n_jobs)(delayed(process_file)(index) for index in data_index)
     features_df = [item for sublist in results for item in sublist] 
