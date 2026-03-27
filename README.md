@@ -55,3 +55,11 @@ options:
 
 ## Contact
 If you have any questions or encounter problems during the project, you are welcome to contact us at any time via the email: ```sidufeng@seu.edu.cn``` & ```yisun_226@seu.edu.cn```.
+
+## Paper
+If you use this repository in your research, please cite:
+- DOI: https://doi.org/10.1109/JBHI.2026.3677472
+
+```text
+"CFRAFN: A Cross-Feature Residual Attention Fusion Network for Major Depressive Disorder Prediction Using Clinical Voice Recordings," IEEE Journal of Biomedical and Health Informatics, 2026, doi: 10.1109/JBHI.2026.3677472.
+```
